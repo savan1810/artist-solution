@@ -126,10 +126,10 @@ const Technology = () => {
                     <div className='text-center opacity-90'>Our expert team of developers transforms your ideas into incredible apps and software by leveraging the latest technologies.</div>
                     <ul className='flex text-xl font-normal border-b pt-10  justify-center gap-12 '>
                         <li className='border-b py-2  ' style={{color:"orange",borderColor:"orange"}} ref={li1} onClick={handlelist1}><Link href='#1'>Mobile</Link></li>
-                        <li className="py-2 "onClick={handlelist2} ref={li2}><Link href='#1' >Front End</Link></li>
-                        <li className="py-2 " onClick={handlelist3} ref={li3}><Link href='#1'> Database</Link></li>
-                        <li className="py-2 " onClick={handlelist4} ref={li4}><Link href='#1'>Back End</Link></li>
-                        <li className="py-2 "  onClick={handlelist5} ref={li5}><Link href='#1'>Designing</Link></li>
+                        <li className="py-2 "onClick={handlelist2} ref={li2}><a href='#1' >Front End</a></li>
+                        <li className="py-2 " onClick={handlelist3} ref={li3}><a href='#1'> Database</a></li>
+                        <li className="py-2 " onClick={handlelist4} ref={li4}><a href='#1'>Back End</a></li>
+                        <li className="py-2 "  onClick={handlelist5} ref={li5}><a href='#1'>Designing</a></li>
                     </ul>
                     <div className='relative mb-20 mt-14 cursor-pointer' data-aos="fade-left"  data-aos-duration="2000">
                         <div className='relative transition ease-in-out delay-150 duration-300' ref={list1} >
