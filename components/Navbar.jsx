@@ -26,7 +26,7 @@ const Navbar = () => {
 
     // bg-gradient-to-r from-[#FDFCFB] to-[#E2D1C3]
   return (
-    <div className={` fixed top-0 left-0 z-10 w-full   ${handleScroll===true ?'bg-white shadow-md'  :pathname==='/'?'bg-gradient-to-r  from-[#F5F5F5] to-[#DFD7BF]':'bg-white shadow-md'}`}` } >
+    <div className={` fixed top-0 left-0 z-10 w-full   ${handleScroll===true ?'bg-white shadow-md'  :pathname==='/'?'bg-gradient-to-r  from-[#F5F5F5] to-[#DFD7BF]':'bg-white shadow-md'}`} >
     <div className={` flex items-center  justify-around ${handleScroll===true ? ' navTrans h-16':'h-20'} }`}>
         <h1 className='text-3xl align-middle font-medium tracking-wide text-[#2b3342]' style={{color:""}}>ARTIST SOLUTION</h1>
         <ul className='list-none flex  items-center gap-6 text-lg  cursor-pointer font-medium opacity-80  text-[#343f52] tracking-wide ' style={{lineHeight: "1"}}>
