@@ -10,7 +10,7 @@ const MainPage = () => {
     <div className='mt-20  -z-10 bg-gradient-to-r  from-[#F5F5F5] to-[#DFD7BF] w-full' style={{
       height: "600px",
     }} >
-      <div className=' flex items-center gap-10 border-box' data-aos="fade-up" data-aos-duration="1000">
+      <div className=' flex items-center gap-10 border-box' data-aos="fade-up" data-aos-duration="500">
         <div className=' mt-24 w-1/2 ml-20 '>
           <h1 className=' font-[500] tracking-wide  ' style={{
             fontSize: "50px", color: "#2b3342", wordSpacing: "0.1rem",
