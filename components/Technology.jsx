@@ -125,7 +125,7 @@ const Technology = () => {
                     <h2 className='   py-2  text-center font-semibold  text-3xl' style={{ fontFamily: "josefin sans", color: "#2b3342" }}><span className='text-orange-400'>TECHNOLGIES </span> WE WORK WITH</h2>
                     <div className='text-center opacity-90'>Our expert team of developers transforms your ideas into incredible apps and software by leveraging the latest technologies.</div>
                     <ul className='flex text-xl font-normal border-b pt-10  justify-center gap-12 '>
-                        <li className='border-b py-2  ' style={{color:"orange",borderColor:"orange"}} ref={li1} onClick={handlelist1}><Link href='#1'>Mobile</Link></li>
+                        <li className='border-b py-2  ' style={{color:"orange",borderColor:"orange"}} ref={li1} onClick={handlelist1}><a href='#1'>Mobile</a></li>
                         <li className="py-2 "onClick={handlelist2} ref={li2}><a href='#1' >Front End</a></li>
                         <li className="py-2 " onClick={handlelist3} ref={li3}><a href='#1'> Database</a></li>
                         <li className="py-2 " onClick={handlelist4} ref={li4}><a href='#1'>Back End</a></li>
